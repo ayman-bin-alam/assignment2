@@ -1,0 +1,182 @@
+@media screen and (max-width: 600px) {
+    .container{
+        margin: 20px auto;
+        max-width:  85vw;
+
+    }
+
+    /* nav */
+
+    .item-container{
+        display: none;
+        
+    }
+    nav {
+        justify-content: space-between;
+    }
+    nav i{
+        visibility: visible;
+    
+    }
+
+    .nav-container img {
+        width: 32px;
+        height: 27px;
+       
+       
+    }
+    
+    .nav-container p {
+        font-size: 21.543px;
+        height: 27px;
+    
+    }
+    
+   
+    .banner .options {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 255px;
+        
+    }
+
+
+    .banner .title{
+        font-size: 22px;
+    }
+    .banner .sub-title{
+        font-size: 14px;
+    }
+    
+
+    .pop-tour-content {
+        flex-direction: column;
+    }
+
+    .pop-tour-content .image {
+        margin-left: 0rem; 
+        width: 100%;
+    }
+    .pop-tour {
+        width: 100%;
+    }
+    .pop-tour h1{
+        font-size: 20px;
+    }
+    .pop-tour div {
+        font-size: 14px;
+    }
+
+   
+    #where input, #when select,  #select-type select, #bttn .btn-primary {
+        width: 14rem;
+    }
+
+
+    /*newsletter*/
+    .subscribe-container{
+        width: 100%;
+    }
+
+    #News-letter {
+        flex-direction: column;
+    }
+    .sub-image {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .sticker {
+        scale: .68;
+        bottom: 15px;
+        right: -44px;
+    }
+
+    /* destination choose*/
+
+    .choose-destination-title h1 {
+        font-size: 20px;
+    }
+
+    #choose-desc{
+        font-size: 14px;
+        margin: 16px auto;
+        width: 90%;
+    }
+
+
+    .choose-img{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        
+    }
+    .choose-img div {
+        font-size: 20px;
+    }
+
+
+    .get-lost {
+        flex-direction: column;
+       
+    }
+
+    #get-lost-desc h1 {
+        font-size: 20px;
+    }
+    .get-lost div {
+        width: 100%;
+    }
+    #get-lost-desc h1{
+        width: 70vw;
+    }
+    #get-lost-desc p, #get-lost-desc ul{
+        font-size: 14px;
+        width: 75vw;
+    }
+    .vide p {
+        top: 70px;
+        right: 5px;
+        font-size: 20px;
+    }
+
+    .title-us {
+        font-size: 20px;
+    }
+    .sub-us {
+        font-size: 14px;
+        margin-top: 16px;
+    }
+
+    .card-holder {
+        display: flex;
+        flex-direction: column;
+    } 
+
+    .card-container img {
+        width: 48px;
+        height: 48px;
+    }
+
+    .card-container h1{
+        padding-top: 16px;
+        color: #131318;
+        font-size: 20px;
+        font-weight: 800;
+    
+    }
+    .card-container p{
+        padding-top: 16px;
+        color: #5A5A5D;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 26px; /* 162.5% */
+    }
+
+}
+
+/*tablet*/
+@media screen and (min-width: 600px) and (max-width992px) {
+    
+}
